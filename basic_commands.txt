@@ -1,0 +1,108 @@
+### Navigation and File Management
+
+1. cd: Change directory.
+   cd directory_path
+
+2. ls: List directory contents.
+   ls
+   ls -l     # Detailed list
+   ls -a     # List all files, including hidden ones
+
+3. pwd: Print working directory (displays the path of the current directory).
+   pwd
+
+4. mkdir: Make directory (create a new directory).
+   mkdir directory_name
+
+5. rmdir: Remove directory (delete an empty directory).
+   rmdir directory_name
+
+6. rm: Remove files or directories.
+   rm filename
+   rm -r directory_name    # Recursively delete directory and its contents
+
+7. cp: Copy files or directories.
+   cp source_file destination_file
+   cp -r source_directory destination_directory    # Recursively copy directory and its contents
+
+8. mv: Move (rename) files or directories.
+   mv old_name new_name
+   mv source_file_or_directory destination_directory
+
+9. touch: Create an empty file or update file timestamps.
+   touch filename
+
+10. find: Search for files in a directory hierarchy.
+    find directory_path -name "filename_pattern"
+
+### File Viewing and Editing
+
+11. cat: Concatenate and display files.
+    cat filename
+
+12. less: View file contents interactively (scrolling).
+    less filename
+
+13. head: Output the first part of files.
+    head filename
+    head -n 10 filename    # Display first 10 lines
+
+14. tail: Output the last part of files.
+    tail filename
+    tail -n 10 filename    # Display last 10 lines
+    tail -f filename       # Output appended data as the file grows
+
+15. nano: Simple text editor for the terminal.
+    nano filename
+
+16. vim or vi: Advanced text editor for the terminal.
+    vim filename
+
+### System Information and Management
+
+17. top: Display Linux tasks.
+    top
+
+18. ps: Report a snapshot of current processes.
+    ps
+    ps aux    # Detailed process list
+
+19. kill: Terminate a process.
+    kill process_id
+
+20. df: Display disk usage statistics.
+    df
+    df -h    # Human-readable format
+
+21. du: Estimate file space usage.
+    du filename
+    du -h directory    # Human-readable format
+
+### Network Commands
+
+22. ping: Send ICMP ECHO_REQUEST to network hosts.
+    ping hostname
+
+23. ifconfig: Configure network interfaces.
+    ifconfig
+
+24. ssh: OpenSSH SSH client (remote login program).
+    ssh username@hostname
+
+25. scp: Secure copy (remote file copy program).
+    scp source_file username@hostname:destination_directory
+
+### Miscellaneous
+
+26. man: Display the manual page for a command.
+    man command_name
+
+27. history: Display command history.
+    history
+
+28. chmod: Change file mode bits (permissions).
+    chmod permissions filename
+
+29. chown: Change file owner and group.
+    chown owner:group filename
+
